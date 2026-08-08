@@ -45,14 +45,13 @@ const customer2 = new BankBranch("meenakshi", "HDFC102", 75000);
 // Display customer details
 customer1.displayCustomerDetails();
 console.log();
-
 customer2.displayCustomerDetails();
 console.log();
 
 // READONLY property
 console.log("Customer ID:", customer1.customerId);
 
-// ❌ Error: Cannot assign to 'customerId' because it is read-only.
+// Error: Cannot assign to 'customerId' because it is read-only.
 // customer1.customerId = "HDFC999";
 
 // STATIC property
