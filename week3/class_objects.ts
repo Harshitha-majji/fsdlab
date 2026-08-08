@@ -47,10 +47,10 @@ class FixedDeposit {
 // -------- Using the Class --------
 
 // Scenario 1: Default constructor
-const fd1 = new FixedDeposit("Ravi Teja", 80000);
+const fd1 = new FixedDeposit("MEENAKSHI", 80000);
 
 // Scenario 2: Overloaded constructor
-const fd2 = new FixedDeposit("Sneha Reddy", 150000, 8.25, 4);
+const fd2 = new FixedDeposit("HARSHITHA", 150000, 8.25, 4);
 
 // Display details
 fd1.displayDetails();
